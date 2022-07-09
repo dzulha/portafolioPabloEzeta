@@ -1,0 +1,171 @@
+:root {
+    --fondo: #0F103F;
+    --fondo2: #1C1C65:
+    --color3: #2F2F8A;
+    --color4: #C961DE;
+    --color5: #2954A3:
+    --white: #FFFFFF;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    background-color: var(--fondo);
+
+}
+
+html{
+
+    font-size: 62.5%;
+    font-family: Poppins;
+}
+
+#menu   {
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+position: absolute;
+width: 1109px;
+height: 72px;
+left: 166px;
+top: 43px;
+
+}
+
+#text{
+
+/* Creative UI disigner */
+
+position: absolute;
+width: 275px;
+height: 82px;
+left: 42px;
+top: 237px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 143.2%;
+
+/* or 60px */
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#text{
+
+/* Hello, I'm an indie */
+
+position: absolute;
+width: 288px;
+height: 46px;
+left: 36px;
+top: 148px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 143.2%;
+
+/* identical to box height, or 46px */
+
+color: #FFFFFF;
+
+
+
+/* based in Mexico! */
+
+position: absolute;
+width: 289px;
+height: 46px;
+left: 35px;
+top: 373px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 143.2%;
+
+/* identical to box height, or 46px */
+
+color: #FFFFFF;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#boton1{
+    box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 200px;
+height: 50px;
+left: 80px;
+top: 587px;
+
+
+background: rgba(255, 255, 255, 0.3);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#boton2{
+    /* Dawnload CV */
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 80px;
+top: 655px;
+
+background: linear-gradient(94.99deg, #C961DE 8.28%, #2954A3 93.16%);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
