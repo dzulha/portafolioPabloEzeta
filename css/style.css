@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:400,700,500");
+
 :root {
     --fondo: #0F103F;
     --fondo2: #1C1C65:
@@ -7,12 +9,10 @@
     --white: #FFFFFF;
 }
 
-
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
     background-color: var(--fondo);
 
 }
@@ -23,27 +23,45 @@ html{
     font-family: Poppins;
 }
 
-#menu   {
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 100px;
-
-position: absolute;
-width: 1109px;
-height: 72px;
-left: 166px;
-top: 43px;
-
+header {
+    width: 100%;
+    height: 60px;
 }
 
+
+header nav{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+header nav .nav-center {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-family: pop;
+}
+
+nav .nav-center a {
+    margin-right: 10px;
+    color: white;
+}
+
+.blogs{
+    letter-spacing: 0;
+    margin-bottom: 2px;
+    margin-left: 100px;
+    min-height: 26px;
+    min-width: 47px;
+}
+
+
 #text{
-
 /* Creative UI disigner */
-
 position: absolute;
 width: 275px;
 height: 82px;
@@ -55,38 +73,26 @@ font-style: normal;
 font-weight: 700;
 font-size: 42px;
 line-height: 143.2%;
-
 /* or 60px */
 text-align: center;
-
 color: #FFFFFF;
-
 }
 
 #text{
-
 /* Hello, I'm an indie */
-
 position: absolute;
 width: 288px;
 height: 46px;
 left: 36px;
 top: 148px;
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 143.2%;
-
 /* identical to box height, or 46px */
-
 color: #FFFFFF;
-
-
-
 /* based in Mexico! */
-
 position: absolute;
 width: 289px;
 height: 46px;
@@ -105,19 +111,6 @@ color: #FFFFFF;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #boton1{
     box-sizing: border-box;
