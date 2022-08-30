@@ -86,7 +86,8 @@ color: #FFFFFF;
 
 /* .boton1 {
     box-sizing: border-box;
-/* Auto layout */
+
+/* Auto layout
 display: flex;
 flex-direction: row;
 justify-content: center;
