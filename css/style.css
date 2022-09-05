@@ -2,17 +2,17 @@
 
 :root {
     --fondo: #0F103F;
-    --fondo2: #1C1C65:
-    --color3: #2F2F8A;
-    --color4: #C961DE;
-    --color5: #2954A3:
+    --fondo2:#1C1C65;
+    --color3:#2F2F8A;
+    --color4:#C961DE;
+    --color5:#2954A3;
     --white: #FFFFFF;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
 }
 
-/* *{
+/*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -25,13 +25,14 @@ html{
     font-family: Poppins;
 }
 
-/* menu */
 @media (max-width: 360px) {
     .header {
         width: 100%;
         height: 60px;
     }
 }
+
+menu
 
 /* .header nav{
     align-items: center;
@@ -124,4 +125,4 @@ border-radius: 30px;
 flex: none;
 order: 1;
 flex-grow: 0;
-}  */ */
+}  */
